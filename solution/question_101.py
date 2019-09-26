@@ -23,5 +23,3 @@ def symmetric(p, q):
     if not symmetric(p.right, q.left):
         return False
     return True
-
-
