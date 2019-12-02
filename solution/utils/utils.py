@@ -6,6 +6,11 @@ class ListNode:
         self.val = x
         self.next = None
 
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 def getListNode(nums: List[int]) -> ListNode:
     prehead = ListNode(0)
