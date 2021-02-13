@@ -28,3 +28,15 @@ def printListNode(listNode: ListNode) -> str:
         result += str(listNode.val) + ' '
         listNode = listNode.next
     return result
+
+def getTreeNodeArrayList(treeNode: TreeNode):
+    if treeNode is None:
+        return []
+    array = [treeNode.val]
+    if treeNode.left is not None:
+        left_array = getTreeNodeArrayList(treeNode.left)
+        array.extend(left_array)
+    if treeNode.right is not None:
+        right_array = getTreeNodeArrayList(treeNode.right)
+        array.extend(right_array)
+    return array

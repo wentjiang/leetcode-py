@@ -1,6 +1,6 @@
 import unittest
-import question_53
 
+from solution.q1_100 import question_53
 
 solution = question_53.Solution
 class MyTestCase(unittest.TestCase):

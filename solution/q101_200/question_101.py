@@ -1,4 +1,4 @@
-from utils.utils import TreeNode
+from solution.utils.utils import TreeNode
 
 
 class Solution:

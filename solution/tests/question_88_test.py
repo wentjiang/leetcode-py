@@ -1,5 +1,6 @@
 import unittest
-import question_88
+
+from solution.q1_100 import question_88
 
 solution = question_88.Solution
 

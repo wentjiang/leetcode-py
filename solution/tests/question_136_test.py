@@ -1,7 +1,7 @@
 import unittest
 
-from question_136 import Solution
-from question_136 import Solution1
+from solution.q101_200.question_136 import Solution
+from solution.q101_200.question_136 import Solution1
 
 solution = Solution()
 solution1 = Solution1()
