@@ -21,7 +21,7 @@ pip install virtualenv
 ```shell script
 cd /project/dir
 virtualenv venv
-source ./venv/bin/active
+source ./venv/bin/activate
 ```
 
 ### install requirements
